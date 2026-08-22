@@ -1,2 +1,2 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/mikitasazan/layout-designer-positioning-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mikitasazan/layout-designer-positioning-project-56/actions)
+[![Actions Status](https://github.com/mdolganova/layout-designer-positioning-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mdolganova/layout-designer-positioning-project-56/actions)
