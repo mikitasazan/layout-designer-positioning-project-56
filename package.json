@@ -2,7 +2,7 @@
   "name": "layout-designer-positioning-project-56",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/mdolganova/layout-designer-positioning-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mdolganova/layout-designer-positioning-project-56/actions)",
+  "description": "Music Box portal layout (Hexlet project)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

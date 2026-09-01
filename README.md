@@ -1,2 +1,42 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/mdolganova/layout-designer-positioning-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mdolganova/layout-designer-positioning-project-56/actions)
+[![Actions Status](https://github.com/mikitasazan/layout-designer-positioning-project-56/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/mikitasazan/layout-designer-positioning-project-56/actions)
+
+# Портал «Music Box»
+
+Вёрстка (без JS) музыкального портала: главная страница и страница
+артиста, позиционирование по макету Figma.
+
+## Стек
+
+HTML, SASS (переменные, шрифты Roboto через `@font-face`), без
+CSS-фреймворка. `htmlhint`/`stylelint` — линтеры (см.
+`.htmlhintrc.json`/`.stylelintrc.json`).
+
+## Текущее состояние: вёрстка не написана
+
+`src/index.html` и `src/artist.html` существуют, но их `<body>` пуст —
+только базовый `style.css` (шрифты, цвета, заголовки) и полный набор
+изображений/шрифтов, но ни один блок макета не свёрстан. `hexlet-check`
+для этого типа проекта проверяет только структуру репозитория и
+конфиги линтеров, не содержимое страниц, поэтому статус
+«Автопроверка пройдена» не отражает реальное состояние.
+
+Полный текст всех 10 шагов (структура, отступы, размеры, цвета,
+разбивка на компоненты для каждой секции — шапка/баннер, подписка,
+новости, приложение, футер на главной; шапка артиста, популярные
+треки, дискография на странице артиста) получен через API проекта
+(`/projects/56/members/42880?step=N`) — там же ссылка на Figma-макет
+и на эталонные скриншоты в отдельном репозитории Hexlet. Ни макет, ни
+эталонные скриншоты не скопированы в этот README — это чужой контент
+(доступ только по логину), сверяться с ним нужно живьём на странице
+проекта.
+
+## Проверка локально
+
+```bash
+python3 -m http.server 8000 --directory src
+```
+
+Открыть `http://localhost:8000/index.html` — на 2026-09-01 страница
+рендерится пустой (только `<title>`), фон/шрифты из `style.css`
+подключены, но верстки нет.
