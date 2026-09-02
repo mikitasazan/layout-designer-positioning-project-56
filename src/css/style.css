@@ -333,12 +333,14 @@ h2 {
 .pricing-item .btn {
   display: block;
   margin-top: 33px;
+  color: #fff;
+  border-color: #fff;
 }
 
 .pricing-footer {
   margin-top: 36px;
   font-size: 14px;
-  color: var(--medium-gray-color);
+  color: #fff;
 }
 
 .bg-free {
@@ -356,7 +358,7 @@ h2 {
 .pricing-note {
   text-align: center;
   font-size: 16px;
-  color: var(--medium-gray-color);
+  color: #fff;
 }
 
 /* News / #page-news */
