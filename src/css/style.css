@@ -379,7 +379,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 64px;
-  height: 283px;
+  min-height: 283px;
 }
 
 .news-item + .news-item {
@@ -401,7 +401,6 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 43px;
-  margin-top: 0;
   margin-bottom: 27px;
 }
 
