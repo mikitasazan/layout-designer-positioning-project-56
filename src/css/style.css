@@ -174,8 +174,13 @@ h2 {
 
 .nav-list a {
   font-size: 12.8px;
-  font-weight: bold;
+  font-weight: normal;
   text-transform: uppercase;
+  color: var(--medium-gray-color);
+}
+
+.nav-list li:first-child a {
+  font-weight: bold;
   color: #fff;
 }
 
@@ -374,6 +379,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 64px;
+  height: 283px;
 }
 
 .news-item + .news-item {
@@ -394,8 +400,9 @@ h2 {
 .news-footer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin-top: 16px;
+  gap: 43px;
+  margin-top: 0;
+  margin-bottom: 27px;
 }
 
 .news-author {
@@ -776,11 +783,17 @@ body > footer {
 
   .news-item {
     display: block;
+    height: auto;
   }
 
   .news-item .news-body,
   .news-item .news-footer {
     margin-top: 33px;
+  }
+
+  .news-footer {
+    gap: 20px;
+    margin-bottom: 0;
   }
 
   .news-grid {
