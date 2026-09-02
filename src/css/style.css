@@ -677,6 +677,20 @@ body > footer {
   grid-column: 1;
 }
 
+@media screen and (width > 414px) {
+  .hero-home .hero-subtitle {
+    margin-top: 1px;
+  }
+
+  .hero-lead {
+    margin-top: 33px;
+  }
+
+  .subscribe-form {
+    margin-top: 16px;
+  }
+}
+
 @media screen and (width <= 414px) {
   h1 {
     font-size: 30px;
@@ -797,9 +811,18 @@ body > footer {
   }
 
   .similar-grid {
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 11px;
-    margin-top: 16px;
+    grid-template-columns: repeat(2, 137px);
+    gap: 50px;
+    margin-top: 15px;
+  }
+
+  .similar-item img {
+    width: 137px;
+    height: 137px;
+  }
+
+  .similar-item h3 {
+    margin-top: 24px;
   }
 
   .discography-item img {
